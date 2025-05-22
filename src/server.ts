@@ -54,6 +54,7 @@ export const createHttpServer =async (port: number, mcpServer: McpServer) => {
     let transport: StreamableHTTPServerTransport;
     if (sessionId && transports.streamable[sessionId]) {
       console.log("Reusing existing StreamableHTTP transport for sessionId", sessionId);
+      transport = transports.streamable[sessionId];
     } else if (!sessionId && isInitializeRequest(ctx.request.body)) {
       console.log("New initialization request for StreamableHTTP sessionId", sessionId);
       transport = new StreamableHTTPServerTransport({
