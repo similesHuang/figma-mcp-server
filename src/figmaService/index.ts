@@ -138,7 +138,7 @@ export class FigmaService {
   };
 }
 
-const writeLogs = (name: string, value: any) => {
+const writeLogs = (name: string, value: unknown) => {
   try {
     if (process.env.NODE_ENV !== "development") return;
 

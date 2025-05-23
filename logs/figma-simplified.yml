@@ -1,0 +1,142 @@
+name: BEATS模型开发服务平台
+lastModified: '2025-05-22T12:55:24Z'
+thumbnailUrl: >-
+  https://s3-alpha.figma.com/thumbnails/ee6af155-9a5e-4715-ae3f-3bb6eac2d447?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCRNQJ6QVT%2F20250522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250522T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6cd8f577c805823be68c05242d0fe6bab4759635f1e4a67968965d3826ff1f88
+nodes:
+  - id: '5302:29940'
+    name: Frame 1321318791
+    type: FRAME
+    layout: layout_0GRT4Z
+    children:
+      - id: '5302:29941'
+        name: Rectangle 279335894
+        type: RECTANGLE
+        fills: fill_814EFH
+        layout: layout_902WYS
+        borderRadius: 8px
+      - id: '5302:29942'
+        name: 标题栏
+        type: FRAME
+        layout: layout_F5M74T
+        children:
+          - id: '5302:29943'
+            name: MCP
+            type: FRAME
+            layout: layout_0GRT4Z
+            children:
+              - id: '5302:29944'
+                name: Vector
+                type: IMAGE-SVG
+                fills: fill_7OUF5T
+                layout: layout_902WYS
+              - id: '5302:29945'
+                name: Vector
+                type: IMAGE-SVG
+                fills: fill_7OUF5T
+                layout: layout_902WYS
+          - id: '5302:29946'
+            name: Frame 1321318802
+            type: FRAME
+            layout: layout_3HMHQI
+            children:
+              - id: '5302:29947'
+                name: Frame 122
+                type: FRAME
+                layout: layout_7337TT
+                children:
+                  - id: '5302:29948'
+                    name: MCP广场
+                    type: TEXT
+                    textStyle: style_KWK64D
+                    fills: fill_7OUF5T
+                    layout: layout_0BXO2G
+                    text: MCP广场
+              - id: '5302:29951'
+                name: Frame 123
+                type: FRAME
+                layout: layout_7337TT
+                children:
+                  - id: '5302:29952'
+                    name: 公司内统一的MCP服务市场，帮助快速接入AI应用中扩展新生态
+                    type: TEXT
+                    textStyle: style_PU00VQ
+                    fills: fill_7OUF5T
+                    layout: layout_0BXO2G
+                    text: 公司内统一的MCP服务市场，帮助快速接入AI应用中扩展新生态
+globalVars:
+  styles:
+    layout_0GRT4Z:
+      mode: none
+      sizing:
+        horizontal: fixed
+        vertical: fixed
+    fill_814EFH:
+      - type: GRADIENT_LINEAR
+        gradientHandlePositions:
+          - x: -0.24015410249527483
+            'y': -1.2416667461249884
+          - x: 0.1297089055382641
+            'y': 0.6041665639785663
+          - x: -0.3349743170788426
+            'y': 0.5583333733063816
+        gradientStops:
+          - position: 0
+            color:
+              hex: '#4D53FF'
+              opacity: 1
+          - position: 0.8700000047683716
+            color:
+              hex: '#F9F9FB'
+              opacity: 1
+    layout_902WYS:
+      mode: none
+      sizing: {}
+    layout_F5M74T:
+      mode: row
+      alignItems: center
+      wrap: true
+      gap: 10px
+      padding: 7px 24px
+      sizing:
+        horizontal: fixed
+        vertical: hug
+      dimensions:
+        width: 1144
+    fill_7OUF5T:
+      - '#676797'
+    layout_3HMHQI:
+      mode: column
+      justifyContent: center
+      gap: 10px
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_7337TT:
+      mode: row
+      alignItems: center
+      gap: 8px
+      sizing:
+        horizontal: fixed
+        vertical: fixed
+      dimensions:
+        width: 157
+        height: 25
+    style_KWK64D:
+      fontFamily: PingFang SC
+      fontWeight: 600
+      fontSize: 24
+      lineHeight: 1.3999999364217122em
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+    layout_0BXO2G:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_PU00VQ:
+      fontFamily: PingFang SC
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.4000000272478377em
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP

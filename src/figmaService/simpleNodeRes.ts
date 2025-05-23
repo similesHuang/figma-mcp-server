@@ -36,7 +36,7 @@ export function parseFigmaResponse(data: GetFileResponse | GetFileNodesResponse)
 }
 
 // Helper function to find node by ID
-const findNodeById = (id: string, nodes: SimplifiedNode[]): SimplifiedNode | undefined => {
+export const findNodeById = (id: string, nodes: SimplifiedNode[]): SimplifiedNode | undefined => {
   for (const node of nodes) {
     if (node?.id === id) {
       return node;
@@ -59,10 +59,11 @@ const findNodeById = (id: string, nodes: SimplifiedNode[]): SimplifiedNode | und
  * @param prefix - Variable ID prefix
  * @returns Variable ID
  */
-function findOrCreateVar(globalVars: GlobalVars, value: any, prefix: string): StyleId {
+function findOrCreateVar(globalVars: GlobalVars, value: unknown, prefix: string): StyleId {
   // Check if the same value already exists
   const [existingVarId] =
     Object.entries(globalVars.styles).find(
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       ([_, existingValue]) => JSON.stringify(existingValue) === JSON.stringify(value),
     ) ?? [];
 
